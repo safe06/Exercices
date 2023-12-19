@@ -15,27 +15,26 @@ public class App {
 
        
       
-        
+        for (int j = 1; j <= 100 ; j++) {
 
-        System.out.println("saisir un nombre");
-        int j = scanner.nextInt() ;
-        System.out.println(j);
-
-      
-       
-             if (j %3 == 0 && j %5 == 0 && j < 100) {
+            if (j %3 == 0 && j %5 == 0  ) {
                 System.out.println("FizzBuzz");
             }
-             else if (j %5 == 0 && j < 100) {
+        
+            else if (j %5 == 0 ) {
                 System.out.println("Bizz");
             }
-            else if (j %3 == 0 && j < 100) {
+        
+            else if (j %3 == 0 ) {
                 System.out.println("Fizz");
             }
             else {
-                System.out.println("erreur");
+                System.out.println(j);
             }
 
+
+        }
+           
             scanner.close();
 
         

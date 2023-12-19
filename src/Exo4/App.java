@@ -33,12 +33,7 @@ public class App {
             System.out.println("le montant final est " + (p+tva));
         }
 
-
-
         scanner.close();
-
-
-
 
 
 
